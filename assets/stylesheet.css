@@ -1,0 +1,22 @@
+p {
+  display: block;
+  font-size: 16px;
+}
+
+div {
+
+  height: 500px;
+  width: 500px;
+ 
+}
+
+h1 {
+  display: block;
+  color: black;
+  font-size: 36px;
+
+}
+.Background {
+  background-image: url("beach.jpg");
+  background-repeat: no-repeat;
+}
