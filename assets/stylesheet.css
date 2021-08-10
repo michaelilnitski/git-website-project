@@ -1,22 +1,45 @@
-p {
-  display: block;
-  font-size: 16px;
+body {
+  background-image: url("beach.jpg");
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
 }
 
 div {
+  margin-left: 250px;
+  margin-top: 250px;
+  height: 1000px;
+  width: 1000px;
+}
 
-  height: 500px;
-  width: 500px;
- 
+.text {
+  height: 450px;
+  width: 450px;
 }
 
 h1 {
   display: block;
   color: black;
-  font-size: 36px;
-
+  font-size: 52px;
 }
+p {
+  display: block;
+  font-size: 24px;
+  background: ;
+}
+#michael {
+  background: yellow;
+  font-style: italic;
+}
+#telmo {
+  background: lime;
+}
+a {
+  display: inline;
+  font-size: 24px;
+}
+
 .Background {
   background-image: url("beach.jpg");
-  background-repeat: no-repeat;
+  height: ;
+  width: 50%;
 }
