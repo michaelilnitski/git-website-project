@@ -3,10 +3,15 @@ body {
   background-repeat: no-repeat;
   background-position: 100% 0%;
 }
-
-div {
+.first {
   margin-left: 250px;
   margin-top: 250px;
+  height: 1000px;
+  width: 1000px;
+}
+div {
+  margin-left: 25px;
+  margin-top: 25px;
   height: 1000px;
   width: 1000px;
 }
@@ -20,6 +25,12 @@ h1 {
   display: block;
   color: black;
   font-size: 52px;
+}
+h2 {
+  display: block;
+  color: black;
+  font-size: 52px;
+  text-align: center;
 }
 p {
   display: block;
@@ -40,6 +51,56 @@ a {
 
 .Background {
   background-image: url("beach.jpg");
-  height: ;
+  height: 500px;
   width: 50%;
+}
+.offer {
+  image: url("vienna.jpg");
+  height: 500px;
+  width: 300px;
+}
+img {
+  height: 250px;
+  width: 250px;
+}
+
+.section2{
+  position: relative;
+}
+/*
+.tour11{
+  border: 2px solid;
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 500px;
+  width: 250px;
+  float:left;
+}
+
+.tour22{
+  border: 2px solid;
+  margin-left: 5px;
+  margin-top: 0px;
+  height: 500px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+
+.tour33{
+  border: 2px solid;
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 500px;
+  width: 250px;
+  float: right;
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+*/
+.package-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
