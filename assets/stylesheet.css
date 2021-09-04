@@ -57,31 +57,62 @@ a {
 }
 */
 div{
-  width:100%;
+  width: 100%;
   padding-left: 2px;
   padding-right: 2px;
   padding-top: 2px;
   padding-bottom: 2px;
-  border: 2px solid;
+  display: inline-block;
+}
+.tour{
+  width:250px;
 }
 
-.tour{
-  width: 250px;
+.button{
+  float: left;
+  width: 30%;
+
 }
 .background1{
   repeat: no repeat;
   background-size: cover;
   width: 250px;
-  height: 100px;
+  height: 150px;
   background-image: url("london.jpg");
   background-repeat: no-repeat;
   background-position: 0% 100%;
+  border: 2px solid grey;
 }
-
+.background2{
+  repeat: no repeat;
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+  background-image: url("vienna.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  border: 2px solid grey;
+}
+.background3{
+  repeat: no repeat;
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+  background-image: url("portugal.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+  border: 2px solid grey;
+}
+.description{
+  width: 250px;
+  height:150px;
+  border: 2px solid grey;
+}
 .review{
   background-color: silver;
   float: left;
   padding: 2px;
+  border: 2px solid grey;
 }
 
 .tourPrice{
@@ -93,4 +124,13 @@ div{
  font-weight: bold;
  margin: 0 auto;
  border-color: transparent;
+ display: inline-block;
+}
+
+.fas{
+  color:red;
+  display:inline-block;
+}
+.far{
+  color:red;
 }
