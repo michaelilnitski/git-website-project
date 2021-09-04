@@ -1,3 +1,4 @@
+/*
 body {
   background-image: url("beach.jpg");
   background-repeat: no-repeat;
@@ -54,53 +55,42 @@ a {
   height: 500px;
   width: 50%;
 }
-.offer {
-  image: url("vienna.jpg");
-  height: 500px;
-  width: 300px;
-}
-img {
-  height: 250px;
-  width: 250px;
-}
-
-.section2{
-  position: relative;
-}
-/*
-.tour11{
-  border: 2px solid;
-  margin-left: 5px;
-  margin-top: 5px;
-  height: 500px;
-  width: 250px;
-  float:left;
-}
-
-.tour22{
-  border: 2px solid;
-  margin-left: 5px;
-  margin-top: 0px;
-  height: 500px;
-  width: 250px;
-  margin: 0 auto;
-}
-
-
-.tour33{
-  border: 2px solid;
-  margin-left: 5px;
-  margin-top: 5px;
-  height: 500px;
-  width: 250px;
-  float: right;
-  position: absolute;
-  top: 0;
-  right: 0%;
-}
 */
-.package-container{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+div{
+  width:100%;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border: 2px solid;
+}
+
+.tour{
+  width: 250px;
+}
+.background1{
+  repeat: no repeat;
+  background-size: cover;
+  width: 250px;
+  height: 100px;
+  background-image: url("london.jpg");
+  background-repeat: no-repeat;
+  background-position: 0% 100%;
+}
+
+.review{
+  background-color: silver;
+  float: left;
+  padding: 2px;
+}
+
+.tourPrice{
+ float: center;
+ height: 24px;
+ width: 24px;
+ text-align: center;
+ font-size: 32px;
+ font-weight: bold;
+ margin: 0 auto;
+ border-color: transparent;
 }
