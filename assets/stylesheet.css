@@ -66,46 +66,62 @@ div{
   margin-right: 12px;
   display: inline-block;
 }
+h2{
+  display: block;
+  font-size: 48px;
+  text-align: center;
+}
+
 .tour{
-  width:250px;
+  width:350px;
 }
 
 .button{
   float: left;
-  width: 30%;
+  width: 50%;
+  height: 30px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: red;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .background1{
   repeat: no repeat;
   background-size: cover;
-  width: 250px;
-  height: 150px;
+  width: 350px;
+  height: 200px;
   background-image: url("london.jpg");
   background-repeat: no-repeat;
   background-position: 0% 100%;
   border: 2px solid grey;
+  position: relative;
 }
 .background2{
   repeat: no repeat;
   background-size: cover;
-  width: 250px;
-  height: 150px;
+  width: 350px;
+  height: 200px;
   background-image: url("vienna.jpg");
   background-repeat: no-repeat;
   background-position: 0% 100%;
   border: 2px solid grey;
+  position: relative;
 }
 .background3{
   repeat: no repeat;
   background-size: cover;
-  width: 250px;
-  height: 150px;
+  width: 350px;
+  height: 200px;
   background-image: url("portugal.jpg");
   background-repeat: no-repeat;
   background-position: 0% 100%;
   border: 2px solid grey;
+  position: relative;
 }
 .description{
-  width: 250px;
+  width: 350px;
   height:150px;
   border: 2px solid grey;
   padding-top: 0;
@@ -115,6 +131,7 @@ div{
   float: left;
   padding: 2px;
   border: 2px solid grey;
+  position: relative;
 }
 
 .tourPrice{
@@ -127,7 +144,10 @@ div{
  margin: 0 auto;
  border-color: transparent;
  display: inline-block;
-}
+ position: absolute;
+ right:60px;
+ top:20px;
+ }
 
 .fas{
   color:red;
