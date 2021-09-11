@@ -1,6 +1,6 @@
 /*
 body {
-  background-image: url("beach.jpg");
+  background-image: url("vienna.jpg");
   background-repeat: no-repeat;
   background-position: 100% 0%;
 }
@@ -51,116 +51,121 @@ a {
 }
 
 .Background {
-  background-image: url("beach.jpg");
+  background-image: url("vienna.jpg");
   height: 500px;
   width: 50%;
 }
 */
-div{
-  width: 100%;
-  padding-left: 2px;
-  padding-right: 2px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-left: 12px;
-  margin-right: 12px;
-}
-h2{
-  display: block;
-  font-size: 48px;
-  text-align: center;
-}
-.flex{
-  display: flex;
-  flex-flow:nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-.tour{
-  width:350px;
+
+.mainSection {
+	width: 100%;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-left: 12px;
+	margin-right: 12px;
 }
 
-.button{
-  float: left;
-  width: 50%;
-  height: 30px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: red;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-.background1{
-  repeat: no repeat;
-  background-size: cover;
-  width: 350px;
-  height: 200px;
-  background-image: url("london.jpg");
-  background-repeat: no-repeat;
-  background-position: 0% 100%;
-  border: 2px solid grey;
-  position: relative;
-}
-.background2{
-  repeat: no repeat;
-  background-size: cover;
-  width: 350px;
-  height: 200px;
-  background-image: url("vienna.jpg");
-  background-repeat: no-repeat;
-  background-position: 0% 100%;
-  border: 2px solid grey;
-  position: relative;
-}
-.background3{
-  repeat: no repeat;
-  background-size: cover;
-  width: 350px;
-  height: 200px;
-  background-image: url("portugal.jpg");
-  background-repeat: no-repeat;
-  background-position: 0% 100%;
-  border: 2px solid grey;
-  position: relative;
-}
-.description{
-  width: 350px;
-  height:150px;
-  border: 2px solid grey;
-  padding-top: 0;
-  position: relative;
-}
-.review{
-  background-color: silver;
-  float: left;
-  padding: 2px;
-  border: 2px solid grey;
-  position: relative;
+h2 {
+	display: block;
+	font-size: 48px;
+	text-align: center;
 }
 
-.tourPrice{
- float: center;
- height: 24px;
- width: 24px;
- text-align: center;
- font-size: 32px;
- font-weight: bold;
- margin: 0 auto;
- border-color: transparent;
- display: inline-block;
- position: absolute;
- right:60px;
- top:20px;
- }
-
-.fas{
-  color:red;
-  display:inline-block;
+.container {
+	display: flex;
+	flex-flow: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 0;
+	margin: 0;
+	list-style: none;
 }
-.far{
-  color:red;
+
+.tour {
+	width: 350px;
+}
+
+.button {
+	float: left;
+	width: 50%;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: red;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.background1 {
+	repeat: no repeat;
+	background-size: cover;
+	height: 200px;
+	background-image: url("london.jpg");
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	border: 2px solid grey;
+	position: relative;
+}
+
+.background2 {
+	repeat: no repeat;
+	background-size: cover;
+	height: 200px;
+	background-image: url("vienna.jpg");
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	border: 2px solid grey;
+	position: relative;
+}
+
+.background3 {
+	repeat: no repeat;
+	background-size: cover;
+	height: 200px;
+	background-image: url("portugal.jpg");
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	border: 2px solid grey;
+	position: relative;
+}
+
+.description {
+	height: 150px;
+	border: 2px solid grey;
+	padding-top: 0;
+	position: relative;
+}
+
+.review {
+	background-color: silver;
+	padding: 2px;
+	border: 2px solid grey;
+	position: relative;
+}
+
+.tourPrice {
+	float: center;
+	height: 24px;
+	width: 24px;
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0 auto;
+	border-color: transparent;
+	display: inline-block;
+	position: absolute;
+	right: 60px;
+	top: 20px;
+}
+
+.fas {
+	color: red;
+	display: inline-block;
+}
+
+.far {
+	color: red;
 }
