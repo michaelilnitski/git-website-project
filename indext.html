@@ -113,13 +113,14 @@ End of second module ************************* -->
       <button class="button2"> BOOK NOW </button>
     </div>
     <div class"flex-child child2 slider">
+    <img src="./assets/porsche6.jpg" alt="car porsche racing" style="width:850px"> 
 
       <div class="slider1">
         <div class="countdown">
           <p id="demo"></p>
           <script>
           // Set the date we're counting down to
-          var countDownDate = new Date("Sep 13, 2021 18:37:25").getTime();
+          var countDownDate = new Date("Sep 12, 2021 20:46:00").getTime();
           // Update the count down every 1 second
           var x = setInterval(function() {
             // Get today's date and time
@@ -132,8 +133,8 @@ End of second module ************************* -->
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
             // Output the result in an element with id="demo"
-            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
+            document.getElementById("demo").innerHTML = days + "days" + hours + "h"
+            + minutes + "m"  +  seconds  +  "s";
             // If the count down is over, write some text
             if (distance < 0) {
               clearInterval(x);
@@ -147,7 +148,6 @@ End of second module ************************* -->
   </div>
 </section>
 
-<!--
 <section>
   <div class="closing-section">
     <div class="tour tour1">
@@ -164,8 +164,6 @@ End of second module ************************* -->
     </div>
   </div>
 </section>
-
--->
 
 
 

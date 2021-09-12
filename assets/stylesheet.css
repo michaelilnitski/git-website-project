@@ -178,29 +178,17 @@ header{
 	height: 30px;
 }
 
-section{
-
-}
-
-footer{
-
-}
-div{
-	height: 500px;
-	position:relative;
-}
 h1 {
     font-size: ;
     line-height: 40px;
 }
-h2 {
+.intro-section h2 {
     font-size: 72px;
     line-height: 40px;
-
 		color: white;
-		position: absolute;
-		bottom: 25%;
 		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+		margin-right: 200px;
+		margin-bottom: 15px;
 }
 h3 {
     font-size: 36px;
@@ -232,10 +220,8 @@ p{
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
+	margin-left: 20px;
 	border-radius: 24px;
-	position: absolute;
-	right: 25%;
-	top: 50%;
 	font-family: arial;
 }
 .button2 {
@@ -251,10 +237,16 @@ p{
 	border-radius: 24px;
 	position: absolute;
 	font-family: arial;
+	padding-left: 200px;
+	padding-right: 20px;
+
 }
 /* Secondary Elements */
 
 .intro-section {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
 	repeat: no repeat;
 	background-size: cover;
 	height: 350px;
@@ -262,7 +254,6 @@ p{
 	background-repeat: no-repeat;
 	background-position: 100% 50%;
 	border: 2px solid grey;
-	position: relative;
 }
 
 .flex-parent{
@@ -279,19 +270,26 @@ p{
 	width: 500px;
 }
 
+.slider{
+	width: 850px;
+}
+
 .slider1{
 	width:850px;
 	repeat: no repeat;
-	background-size: cover;
-	background-image: url("porsche3.jpg");
-	background-repeat: no-repeat;
 	position: relative;
  }
+
+ .slider img{
+	 width: 100%;
+ }
+
  .countdown{
-	 width: 300px;
+	 width: 850px;
 	 height: 75px;
 	 z-index: 15;
-	 background-color: green;
+	 background-color: lightgreen;
+	 background: rgba(0,0,0,0.3);
 	 position: absolute;
 
  }
@@ -309,7 +307,7 @@ p{
 	 background-size: cover;
 	 height: 200px;
 	 width: 250px;
-	 background-image: url("london.jpg");
+	 background-image: url("porsche4.jpg");
 	 background-repeat: no-repeat;
 	 background-position: 0% 100%;
 	 border: 2px solid grey;
@@ -328,8 +326,8 @@ p{
 	color: grey;
 }
 #demo{
-	font-size: 24px;
-	color: black;
+	font-size: 36px;
+	color: white;
 	font-family: arial;
 	text-align: center;
 }
