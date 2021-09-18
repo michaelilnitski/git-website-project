@@ -268,6 +268,7 @@ p{
 	padding: 12px;
 	margin: 12px;
 }
+
 .tour{
 	display: flex;
 	flex-wrap: nowrap;
@@ -284,7 +285,9 @@ p{
 }
 .tour2{
 	padding: 12px;
+	padding-left: 0;
 	margin: 12px;
+	margin-left: 0;
 }
 
 .child1{
@@ -311,13 +314,21 @@ p{
  }
 
  .countdown{
-	 width: 850px;
-	 height: 75px;
+	 display: flex;
+	 width: 450px;
+	 height: 90px;
+	 left: 1250px;
+	 top:930px;
 	 z-index: 15;
 	 background-color: lightgreen;
-	 background: rgba(0,0,0,0.3);
 	 position: absolute;
-
+ }
+ .countdown-text{
+	 text-align: center;
+ }
+ .a111{
+	 font-size: 60px;
+	 color:grey;
  }
  .closing-section{
  	display: flex;
@@ -332,6 +343,10 @@ p{
  .price{
 	 font-size: 36px;
  }
+ .time{
+	 font-size: 35px;
+
+ }
 
 .old-price{
 	text-decoration: line-through;
@@ -342,9 +357,9 @@ p{
 	color: grey;
 }
 .icon{
-	margin-right: 20px;
+	margin-right: ;
 	padding: 12px;
-	margin: 12px;
+	margin-top: 30px;
 }
 .fas{
 	margin-right: 20px;
