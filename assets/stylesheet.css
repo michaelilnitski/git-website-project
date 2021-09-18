@@ -317,8 +317,8 @@ p{
 	 display: flex;
 	 width: 450px;
 	 height: 90px;
-	 left: 1250px;
 	 top:930px;
+	 margin-left: 250px;
 	 z-index: 15;
 	 background-color: lightgreen;
 	 position: absolute;
